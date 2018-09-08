@@ -37,7 +37,7 @@ var places = [
     },
     {
         
-        name: "salah citdal",
+        name: "salah citdal 1 ",
         position: {
             lat: 30.028611,
             lng: 31.259722
