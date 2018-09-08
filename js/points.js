@@ -1,36 +1,30 @@
 var data = [
     {
-        name: "The Great Pyramid",
+        name: "Land of Heros",
         position: {
-            lat: 29.979207,
-            lng: 31.134213
+            lat: 30.124349,
+            lng: 31.260886
         }
     },
     {
-        name: "Egyptian Museum",
-        position: {
-            lat: 30.047778,
-            lng: 31.233333
-        }
-    },
-    {
-        name: "Saqqara",
-        position: {
-            lat: 29.871434,
-            lng: 31.216532
-        }
-    },
-    {
-        name: "Valley of the Kings",
+        name: "Valley of Kings",
         position: {
             lat: 25.740158,
             lng: 32.601436
         }
     },
     {
-        name: "Hurghada",
+        
+        name: "Egyptian Museum",
         position: {
-            lat: 27.257778,
+            lat: 30.047778,
+            lng: 34.393431
+        }
+    },
+    {
+        name: "Sharm ElSheikh",
+        position: {
+            lat: 27.976742,
             lng: 33.811667
         }
     },
@@ -42,17 +36,18 @@ var data = [
         }
     },
     {
-        name: "Aswan",
-        position: {
-            lat: 24.088889,
-            lng: 32.899722
-        }
-    },
-    {
+        
         name: "Saladin Citadel",
         position: {
             lat: 30.028611,
             lng: 31.259722
+        }
+    },
+    {
+        name: "Asyut",
+        position: {
+            lat: 27.178606,
+            lng: 31.185899
         }
     }
 ];

@@ -3,20 +3,16 @@ var infos = {};
 var markers = [];
 var infowindow;
 
-/*
- * @description Init the map and sets the markers from the points.js data and load the locations info
+/**
+ * intialite the map 
  */
 function initMap() {
-
-    try {
 
         map = new google.maps.Map(document.getElementById('map'), {
             center: {lat: 29.979207, lng: 31.134213},
             zoom: 8
         });
-    } catch (e) {
-        mapError();
-    }
+    
 
     infowindow = new google.maps.InfoWindow();
     var bounds = new google.maps.LatLngBounds();
