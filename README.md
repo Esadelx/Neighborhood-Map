@@ -2,13 +2,13 @@
 
 The neighborhood show my favourite places in Egypt 
 
-##Installation & Run Application:
+<h3>Installation & Run Application:</h3>
 
 1- install text editor 
 
 2- open index.html
 
-#Requirements:
+<h3>Requirements:</h3>
 
 google maps api.
 
@@ -20,6 +20,6 @@ google maps api.
 
 4- add maps api.
 
-#foursquare api
+<h3>Foursquare api</h3>
 
 1- open this site and follow instraction https://developer.foursquare.com/docs/api/getting-started.
