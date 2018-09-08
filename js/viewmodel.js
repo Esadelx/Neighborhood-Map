@@ -9,8 +9,14 @@ function ViewModel() {
 
     this.keyword = ko.observable('');
     /*
-     * @description The watcher for the search bar changes that
-     * will filter the displayed locations in the list and the map
+     * Search bar 
+     **/
+    
+    this.clickLocation = function (location) {
+        markerClicked(markers[location.index]);
+    }
+    /*
+     * list locations clicks
      */
     this.keyword.subscribe((function (keyword) {
         locations.removeAll();
@@ -22,12 +28,7 @@ function ViewModel() {
             else markers[p].setVisible(false);
         }
     }));
-    /*
-     * @description Handel the list locations clicks
-     */
-    this.clickLocation = function (location) {
-        markerClicked(markers[location.index]);
-    }
+    
+    
 }
-
 ko.applyBindings(ViewModel);

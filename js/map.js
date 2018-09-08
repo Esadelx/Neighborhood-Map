@@ -24,7 +24,7 @@ function markerClicked(marker) {
 }
 
 /*
- * Init the map and set the point form js/points.js
+ * Init the map and set the point form js/places.js
  */
 
 function initMap() {
