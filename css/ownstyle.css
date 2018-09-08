@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.maps {
+    display: flex;
+    height: calc(100vh - 53px);
+}
+
+.maps nav {
+    z-index: 1;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    background-color: rgb(22, 2, 46);
+}
+nav li {
+    color: #F2F1EF;
+}
+
+.maps #map {
+    z-index: 0;
+    width: 100%;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    display: block;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+}
