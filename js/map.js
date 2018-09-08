@@ -37,13 +37,13 @@ function initMap() {
 infowindow = new google.maps.InfoWindow();
 var bounds = new google.maps.LatLngBounds();
 
-for (var i in data) {
+for (var i in places) {
 
   var marker = new google.maps.Marker({
-      position: data[i].position,
+      position: places[i].position,
       animation: google.maps.Animation.DROP,
       map: map,
-      title: data[i].name
+      title: places[i].name
   });
 
   marker.addListener('click', function () {
@@ -52,8 +52,8 @@ for (var i in data) {
 
   setInfo(marker.title);
   markers.push(marker);
-  bounds.extend(data[i].position);
-  locations.push({index: i, title: data[i].name});
+  bounds.extend(places[i].position);
+  locations.push({index: i, title: places[i].name});
 }
 map.fitBounds(bounds);
 map.setCenter(bounds.getCenter());

@@ -1,4 +1,4 @@
-var data = [
+var places = [
     {
         name: "Land of Heros",
         position: {
@@ -15,7 +15,7 @@ var data = [
     },
     {
         
-        name: "Egyptian Museum",
+        name: "Tahrir",
         position: {
             lat: 30.047778,
             lng: 34.393431
@@ -37,7 +37,7 @@ var data = [
     },
     {
         
-        name: "Saladin Citadel",
+        name: "slaha citdal",
         position: {
             lat: 30.028611,
             lng: 31.259722
