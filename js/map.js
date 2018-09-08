@@ -63,3 +63,6 @@ function markerClicked(marker) {
 function mapError() {
     alert("Sorry The Map Can't Be Loaded Please Refresh The Page");
 }
+function halloall(){
+tset
+}
