@@ -1,5 +1,5 @@
 /**
- * @description Sets the wiki info link of the location in the infos object
+ * Set the wiki info link of the location in the infos object
  * @param {String} title
  */
 function setInfo(title) {
