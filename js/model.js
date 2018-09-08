@@ -1,6 +1,6 @@
 var locations = ko.observableArray();
 
-function ViewModel() {
+function ModelView() {
     this.showNav = ko.observable(true);
     this.clickMenu = function () {
         if (this.showNav() == true) this.showNav(false);
@@ -31,4 +31,4 @@ function ViewModel() {
     
     
 }
-ko.applyBindings(ViewModel);
+ko.applyBindings(ModelView);
