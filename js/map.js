@@ -1,10 +1,9 @@
-var map;
 var details = {};
 var markers = [];
+var map;
 var infowindow;
-
 /*
- *  Animate the marker 
+ * Animate the marker 
  */
 function markerClicked(marker) {
 
@@ -16,7 +15,7 @@ function markerClicked(marker) {
     }, 1400);
 
     if (details[marker.title] == "error") {
-        infowindow.setContent("Sorry The Info Link For This Location<br>Can't Be Loaded");
+        infowindow.setContent("Cant be loaded ");
     }
     else {
         infowindow.setContent("<a href=" + details[marker.title] + " target=\"_blank\">" + marker.title + "</a>");
@@ -25,14 +24,14 @@ function markerClicked(marker) {
 }
 
 /*
- * @description Init the map and set the point form js/points.js
+ * Init the map and set the point form js/points.js
  */
 
 function initMap() {
 
     map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 29.979207, lng: 31.134213},
-      zoom: 8
+      zoom: 10
   });
 
 infowindow = new google.maps.InfoWindow();
