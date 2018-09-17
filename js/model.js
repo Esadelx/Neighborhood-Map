@@ -8,16 +8,11 @@ function ModelView() {
     };
 
     this.keyword = ko.observable('');
-    /*
-     * Search bar 
-     **/
     
     this.clickLocation = function (location) {
         markerClicked(markers[location.index]);
     }
-    /*
-     * list locations clicks
-     */
+
     this.keyword.subscribe((function (keyword) {
         locations.removeAll();
         for (var p in markers) {
@@ -28,7 +23,6 @@ function ModelView() {
             else markers[p].setVisible(false);
         }
     }));
-    
-    
+      
 }
 ko.applyBindings(ModelView);

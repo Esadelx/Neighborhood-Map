@@ -3,7 +3,7 @@ var markers = [];
 var map;
 var infowindow;
 /*
- * Animate the marker 
+ * Animate the marker points 
  */
 function markerClicked(marker) {
 
@@ -61,5 +61,5 @@ map.setCenter(bounds.getCenter());
 
 
 function mapError() {
-    alert("Sorry The Map Can't Be Loaded Please Refresh The Page");
+    alert("Sorry The Map Can't Be Loaded ");
 }
